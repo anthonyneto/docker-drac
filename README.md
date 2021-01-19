@@ -14,3 +14,7 @@ docker run --rm -v /tmp/.X11-unix:/tmp/.X11-unix \
 
 ### why do I have to run `xhost local:root`?
 https://github.com/jessfraz/dockerfiles/issues/6
+
+### requirements
+Firmware: 1.65 (12.08.16) for the RAC
+https://www.dell.com/support/home/en-us/drivers/DriversDetails?driverId=D8GP9
